@@ -20,6 +20,8 @@ public class Temperature {
             float fahrenheit = (float) ((celsius * 9/5) + 32 );
             System.out.println(celsius + " degree Celsius is equal to " + fahrenheit + " in Fahrenheit");
 
+        else{
+            System.out.println("Please Enter correct choice :");
         }
     }
 }
